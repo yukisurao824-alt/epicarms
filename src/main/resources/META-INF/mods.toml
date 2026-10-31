@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="epicarms"
+version="1.0.0"
+displayName="Epic Arms"
+description='''Extra weapons and fist weapons that use Epic Fight combat styles.'''
+
+[[dependencies.epicarms]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.epicarms]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.epicarms]]
+modId="epicfight"
+mandatory=false
+versionRange="[1,)"
+ordering="AFTER"
+side="BOTH"

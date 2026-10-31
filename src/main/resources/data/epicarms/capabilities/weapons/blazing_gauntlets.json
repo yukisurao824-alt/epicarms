@@ -1,0 +1,10 @@
+{
+  "type": "epicfight:fist",
+  "attributes": {
+    "common": {
+      "armor_negation": 5.0,
+      "impact": 0.7,
+      "max_strikes": 1
+    }
+  }
+}
